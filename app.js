@@ -10,7 +10,7 @@ mongoose
 
 // app.get("/", (req, res) => res.send("Hello Kai"));
 app.get('/', (req, res)=>{
-    console.log(res)
+    debugger;
     res.send("Hi, I am not Kai");
 })
 
